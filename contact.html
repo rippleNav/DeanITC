@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Dean_ITC</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Specific styles for the form */
+        form { max-width: 500px; margin: 40px auto; }
+        input, textarea { width: 100%; padding: 10px; margin-bottom: 15px; background: #111; border: 1px solid #333; color: #fff; }
+        button { background: #00e5ff; border: none; padding: 10px 20px; font-weight: bold; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <h1>Contact Support</h1>
+    </header>
+
+    <div class="container">
+        <!-- Replace ACTION with your Formspree URL -->
+        <form action="https://formspree.io/f/xyzrorjo" method="POST">
+            <label>Your Email:</label>
+            <input type="email" name="email" required>
+            
+            <label>Message:</label>
+            <textarea name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Signal</button>
+        </form>
+    </div>
+</body>
+</html>
